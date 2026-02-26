@@ -5,12 +5,9 @@ class RandomTool {
     private int number;
     private Random rand = new Random();
 
-    // one value: 0 to limit-1
     RandomTool(int limit) {
         number = rand.nextInt(limit);
     }
-
-    // two values: between min and max
     RandomTool(int min, int max) {
         number = min + rand.nextInt(max - min + 1);
     }
@@ -50,7 +47,7 @@ public class SwitchGuessGame {
                 System.out.print("Enter second number: ");
                 int b = sc.nextInt();
 
-                if (a > b) {   // swap if needed
+                if (a > b) {  
                     int temp = a;
                     a = b;
                     b = temp;
@@ -79,7 +76,7 @@ public class SwitchGuessGame {
             int guess = sc.nextInt();
 
             if (guess == secret) {
-                System.out.println("🎉 You won! You guessed the correct number.");
+                System.out.println(" You won! You guessed the correct number.");
                 win = true;
                 break;
             } 
@@ -101,4 +98,5 @@ public class SwitchGuessGame {
 
         sc.close();
     }
+
 }

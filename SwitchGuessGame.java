@@ -24,7 +24,13 @@ public class SwitchGuessGame {
 
         Scanner sc = new Scanner(System.in);
         RandomTool tool = null;
-
+        
+        //anjali edit
+        System.out.println("ENTER YOUR NAME\n");
+        String name = sc.nextLine();
+        System.out.println("\n");
+        //
+        
         System.out.println("---- Guess The Number Game ----");
         System.out.println("1. Enter one number");
         System.out.println("2. Enter two numbers");

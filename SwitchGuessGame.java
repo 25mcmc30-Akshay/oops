@@ -1,6 +1,8 @@
 import java.util.Random;
 import java.util.Scanner;
 
+//hello i got this code anjali this side
+
 class RandomTool {
     private int number;
     private Random rand = new Random();

@@ -104,7 +104,10 @@ public class SwitchGuessGame {
             System.out.println("The correct number was: " + secret);
         }
 
+        System.out.println("please visit these codes");
+
         sc.close();
     }
 
 }
+

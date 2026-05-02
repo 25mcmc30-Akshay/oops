@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-//hello i got this code anjali this side
+//hello i got this code anjali this 
 
 class RandomTool {
     private int number;
